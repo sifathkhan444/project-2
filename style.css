@@ -1,6 +1,17 @@
-body{
-    background-color: #beb9b4ce;
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
 }
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+background-color: rgb(243, 237, 229);
+}
+
 .container{
     margin: 0 228px;
 }
@@ -22,7 +33,7 @@ nav ul{
     display: flex;
 }
 nav ul li{
-    padding: 0 30px;
+    padding: 0 32px;
     font-size: 18px;
     font-weight: 500;
     list-style: none;
@@ -30,4 +41,48 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: black;
+}
+
+.Head-title{
+    width: 100%;
+    top: 50%;
+    position: absolute;
+    text-align: center;
+}
+
+.head-set{
+    font-size: 30px;
+    padding-top: 60px;
+    text-align: center;
+
+}
+
+.p-1{
+    text-align: center;
+    padding-top: 25px;
+}
+
+button{
+    background-color: rgb(246, 164, 11);
+    padding: 15px 22px;
+    font-weight: bold;
+    border: none;
+    color: white;
+    margin-top:30px ;
+    margin-left: 42%;
+    /* text-align: center; */
+    /* padding-left: 40px; */
+}
+button:hover{
+    background-color: black;
+}
+
+.image img{
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    bottom: 25px;
+    padding-top: 30px;
 }
