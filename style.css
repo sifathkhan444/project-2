@@ -1,0 +1,33 @@
+body{
+    background-color: #beb9b4ce;
+}
+.container{
+    margin: 0 228px;
+}
+
+/* *******************************
+************Top Nav Bar************
+**********************************/
+.nav-container{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.page-tittle{
+    font-size: 40px;
+    font-weight: 700;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    padding: 0 30px;
+    font-size: 18px;
+    font-weight: 500;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
