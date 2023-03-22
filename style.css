@@ -132,3 +132,45 @@ button:hover{
 .button-two:hover{
     background-color: black;
 }
+
+.header-2{
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    gap: 10px;
+}
+
+.long-dot{
+    height: 106px;
+    width: 7px;
+    background-color: #FF900E;
+}
+.division{
+    width: 500px;
+    height: 75px;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid gainsboro;
+   
+    
+}
+.division p{
+    color: rgb(71, 68, 68);
+}
+.write{
+  
+    width: 74%;
+    display: flex;
+    position: relative;
+    margin: auto;
+    gap: 30px;
+}
+
+.writing img{
+    width: 400px;
+    height: 550px;
+    margin-top: 40px;
+
+}
