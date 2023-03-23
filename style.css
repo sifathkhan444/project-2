@@ -12,7 +12,7 @@ body{
 background-color: rgb(243, 237, 229);
 }
 
-.container{
+.section-1{
     margin: 0 228px;
 }
 
@@ -173,4 +173,63 @@ button:hover{
     height: 550px;
     margin-top: 40px;
 
+}
+.btn-optional{
+    width: 200px;
+    height: 130px;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+    margin-left: 90px;
+}
+.btn-optional h3{
+    font-weight: 500;
+    font-size: 40px;
+    
+}
+.btn-optional p{
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.section-4{
+    padding: 50px;
+}
+.facts-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    row-gap: 20px;
+}
+.facts-part > h3{
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.box-part{
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 12px;
+}
+
+.facts-set{
+    border: 1px solid black;
+    height: 145px;
+    width: 145px;
+    row-gap: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    transition: transform 1s;
+}
+.facts-set:hover{
+    background-color: orange;
+    color: white;
+    transform: scale(1.15,1.15);
+}
+
+.facts-set h3{
+    font-weight: 600;
+    font-size: 45px;
 }
