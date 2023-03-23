@@ -233,3 +233,34 @@ button:hover{
     font-weight: 600;
     font-size: 45px;
 }
+
+
+.sponsor-container{
+    margin-right: 1%;
+    text-align: center;
+}
+
+.about-us-tittle{
+    font-size: 55px;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+}
+.about-us-info{
+    font-size: 16px;
+    margin-top: 0;
+    width: 600px;
+    color: #727272;
+}
+
+.many-logos, .logo {
+    display: flex;
+    margin-right: 15%;
+}
+.logo{
+    margin-left: 100px;
+}
+.icon img{
+    margin-left: 100px;
+    width: 100px;
+    margin-top: 40px;
+}
