@@ -264,3 +264,18 @@ button:hover{
     width: 100px;
     margin-top: 40px;
 }
+
+footer{
+    width: 72%;
+    height: 20vh;
+    margin-bottom: 40px;
+    display: flex;
+    background-color: rgb(125, 166, 206);
+}
+.footer-edit{
+    margin-top: 4%;
+    width: 74%;
+    list-style: none;
+    position: absolute;
+    text-align: center;
+}
