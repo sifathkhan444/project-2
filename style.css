@@ -166,9 +166,10 @@ button:hover{
     position: relative;
     margin: auto;
     gap: 30px;
+    margin-right: 30%;
 }
 
-.writing img{
+.show-image img{
     width: 400px;
     height: 550px;
     margin-top: 40px;
